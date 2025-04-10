@@ -1,16 +1,16 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Collections from "./pages/Collections";
-import About from "./pages/About";
-import Contect from "./pages/Contect";
-import Product from "./pages/Product";
-import Cart from "./pages/Cart";
-import Login from "./pages/Login";
-import PlaceOrder from "./pages/PlaceOrder";
-import Orders from "./pages/Orders";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Home from "./pages/Home/Home";
+import Collections from "./pages/Collections/Collections";
+import About from "./pages/About/About";
+import Contect from "./pages/Contact/Contect";
+import Product from "./pages/Product/Product";
+import Cart from "./pages/Cart/Cart";
+import Login from "./pages/Login/Login";
+import PlaceOrder from "./pages/PlaceOrder/PlaceOrder";
+import Orders from "./pages/Orders/Orders";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (

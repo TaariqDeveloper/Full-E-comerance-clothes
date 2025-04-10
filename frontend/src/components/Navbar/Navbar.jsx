@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/admin_assets/logo.png";
-import { assets } from "../assets/frontend_assets/assets";
+
+import logo from "../../assets/admin_assets/logo.png";
+import { assets } from "../../assets/frontend_assets/assets";
 
 function Navbar() {
   const [visible, setVisible] = useState(false);
