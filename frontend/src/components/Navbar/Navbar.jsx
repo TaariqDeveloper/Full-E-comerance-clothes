@@ -7,7 +7,7 @@ import { ShopeContext } from "../../context/ShopeContext";
 
 function Navbar() {
   const [visible, setVisible] = useState(false);
-  const { setShowSearch } = useContext(ShopeContext);
+  const { setShowSearch, getCartCount } = useContext(ShopeContext);
   return (
     <div className="flex items-center justify-between py-5 font-medium">
       <Link to="/">
@@ -62,7 +62,7 @@ function Navbar() {
         <Link to="/cart" className="relative">
           <img src={assets.cart_icon} className="w-5 min-5" alt="" />
           <p className="absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded text-[8px]">
-            10
+            {getCartCount()}
           </p>
         </Link>
 
